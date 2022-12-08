@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  padding: 50px;
+  align-items: center;
+}
+
+.video {
+  margin-top: 16px;
+}
+
+.buttonBtn {
+  background-color: #33bd63;
+  border: 0px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: "poppins";
+  color: white;
+  padding: 12px 20px;
+  &:active {
+    outline: 0px;
+  }
+}

@@ -1,0 +1,46 @@
+.container {
+    margin: 8em 6em;
+    h1 {
+        font-size: calc(3em - 6px);
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 500;
+        color: #4f4f4f;
+        margin-bottom: 20px;
+    }
+
+    div {
+        width: 100%;
+        max-width: 800px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 25px;
+
+        @media (max-width: 600px) {
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width: 600px) {
+        margin: 8em 4em;
+    }
+}
+
+.card {
+    width: 100%;
+    box-shadow: -3px -4px 8px rgba(0, 0, 0, 0.05),
+        3px 4px 8px rgba(0, 0, 0, 0.05);
+    padding: 25px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+
+    span {
+        color: #bd3333;
+    }
+}

@@ -1,0 +1,36 @@
+.container {
+  background: url("./static/Hero.jpg");
+  width: 100vw;
+  height: 30vh;
+  background-size: cover;
+  background-position: bottom;
+
+  @media screen and (max-width: 600) {
+    height: 50vh;
+  }
+
+  div {
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.351);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 3em;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+      max-width: 740px;
+      line-height: 1.5em;
+
+      mark {
+        background-color: #01c767;
+        background-position: 10px;
+        color: white;
+      }
+    }
+  }
+}

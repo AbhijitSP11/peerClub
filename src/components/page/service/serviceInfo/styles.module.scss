@@ -1,0 +1,25 @@
+.container {
+    margin: 4em 6em;
+    width : 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    h2 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: calc(1em + 2px);
+        color: #424242;
+        text-align: justify;
+    }
+
+    a {
+        color: blue;
+    }
+
+    @media (max-width: 600px) {
+        margin: 8em 4em;
+    }
+}

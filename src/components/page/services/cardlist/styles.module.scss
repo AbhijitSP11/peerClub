@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.listContainer {
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @media screen and (min-width: 700px) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (min-width: 900px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    gap: 80px;
+}
+
+.emptyContainer {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    h2 {
+        font-weight: 500;
+    }
+
+    svg {
+        font-size: 4em;
+        color: #bd3333;
+    }
+}

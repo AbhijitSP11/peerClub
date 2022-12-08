@@ -1,0 +1,25 @@
+.vandanainfo {
+  width: 100%;
+  padding-left:90px; 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  h1 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  &__accordian {
+    width: 100%;
+    margin-top:20px;
+    // margin: 50px auto;
+    font-size: 17px;
+    box-sizing: border-box;
+    max-width: 900px;
+    div {
+      box-sizing: border-box;
+    }
+  }
+}
